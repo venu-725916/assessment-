@@ -16,4 +16,4 @@ void staticdemo()
     }
     printf("%d\n",a);
 }
-
+//venu
