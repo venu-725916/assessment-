@@ -1,1 +1,19 @@
+#include<stdio.h>
+int main()
+{
+    staticdemo();
+    staticdemo();
+    staticdemo();
+    staticdemo();
+    return 0;
+}
+void staticdemo()
+{
+    static int a=4;
+    for(int i=1;i<4;i++);
+    {
+        a=a+4;
+    }
+    printf("%d\n",a);
+}
 
