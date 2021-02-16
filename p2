@@ -1,1 +1,14 @@
-
+#include<stdio.h>
+#include<string.h>
+int c=300; //global variable
+int main()
+{
+    int b=100; //local variable
+    {
+        int a=200;
+        printf("%d\n",a);
+    }
+    printf("%d\n",b);
+    printf("%d\n",c);
+    
+}
